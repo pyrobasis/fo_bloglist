@@ -1,0 +1,29 @@
+{
+  "name": "fo_bloglist",
+  "version": "0.0.1",
+  "description": "fullstack open exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyrobasis/fo_bloglist.git"
+  },
+  "author": "pyrobasis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pyrobasis/fo_bloglist/issues"
+  },
+  "homepage": "https://github.com/pyrobasis/fo_bloglist#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.1"
+  }
+}
